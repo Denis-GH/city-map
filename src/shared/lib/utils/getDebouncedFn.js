@@ -1,6 +1,3 @@
-/**
- *
- */
 export function getDebouncedFn(func, delay) {
   let timeout;
 

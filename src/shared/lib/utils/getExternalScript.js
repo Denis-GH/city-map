@@ -1,6 +1,3 @@
-/**
- *
- */
 export const getExternalScript = (url) => {
   return new Promise((resolve, reject) => {
     const script = document.createElement("script");

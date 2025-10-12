@@ -2,9 +2,6 @@ import { deleteMark } from "../api/index.js";
 import { ModalManager } from "#shared/lib/plugins/modalManager";
 import { getAttr } from "#shared/lib/utils";
 
-/**
- *
- */
 export class DeleteMarkModel {
   static selectors = {
     deleteMarkBtn: "[data-js-delete-mark-btn]",

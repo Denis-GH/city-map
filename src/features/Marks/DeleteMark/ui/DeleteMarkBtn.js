@@ -1,8 +1,5 @@
 import { Button, Icon } from "#shared/ui";
 
-/**
- *
- */
 export const DeleteMarkBtn = ({ markId, color = "var(--colorRed)", extraClasses = [] }) => {
   return Button({
     text: "",

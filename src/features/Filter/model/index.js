@@ -1,8 +1,5 @@
 import { getDebouncedFn } from "#shared/lib/utils";
 
-/**
- *
- */
 export class FilterManager {
   constructor({ filterName, onUpdate, filterCfg, debounceDelayForInput = 1000 }) {
     this.attrs = {

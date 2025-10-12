@@ -1,9 +1,8 @@
 import { Fancybox } from "@fancyapps/ui";
 import { ConfirmModal } from "#features/ConfirmModal";
 
-/**
- * Класс для управления модальными окнами с использованием Fancybox (Singleton).
- */
+// Класс для управления модальными окнами с использованием Fancybox (Singleton).
+
 export class ModalManager {
   static instance = null;
 

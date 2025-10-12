@@ -1,6 +1,5 @@
-/**
- * Конфигурация для кнопок Switch и инпутов
- */
+//  Конфигурация для кнопок Switch и инпутов
+
 export const switchConfigDefault = [
   {
     label: "Рестораны",

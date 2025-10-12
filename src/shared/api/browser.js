@@ -1,10 +1,8 @@
 import { setupWorker } from "msw/browser";
 import { handlers } from "./index.js";
 
-/**
- * Получает результат запуска MSW
- * @return {Promise.<void|ServiceWorkerRegistration>}
- */
+// Получает результат запуска MSW
+
 export async function getMocks() {
   switch (process.env.NODE_ENV) {
     case "development": // `development` mode

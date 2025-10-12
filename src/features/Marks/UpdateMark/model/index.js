@@ -3,9 +3,6 @@ import { API_ENDPOINTS, API_URL } from "#shared/config/constants";
 import { ModalManager } from "#shared/lib/plugins/modalManager";
 import { SelectModel } from "#shared/ui/Select/model";
 
-/**
- *
- */
 export class UpdateMarkModel {
   attrs = {
     updateMark: "data-js-update-mark-info",

@@ -4,6 +4,7 @@ import prettier from "eslint-plugin-prettier";
 
 const customRules = {
   "@stylistic/js/padded-blocks": "off",
+  "jsdoc/require-jsdoc": "off",
 };
 
 const mergedConfig = [

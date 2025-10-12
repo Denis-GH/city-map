@@ -1,14 +1,8 @@
 import { switchConfigDefault } from "../config/index.js";
 import { getGeneratedAttrs } from "#shared/lib/utils";
 import { Icon, Switch } from "#shared/ui/index.js";
-/**
- * Компонент PlaceSwitchGroup с прокидываемым конфигом
- * @param {Object} param0 - параметры компонента
- * @param {Array} param0.extraClasses - дополнительные классы
- * @param {Array} param0.extraAttrs - дополнительные аттрибуты
- * @param {Array} param0.switchConfig - конфиг для генерации переключателей
- * @return {String} HTML-строка
- */
+// Компонент PlaceSwitchGroup с прокидываемым конфигом
+
 export const PlaceSwitchGroup = ({
   extraClasses = [],
   extraAttrs = [],

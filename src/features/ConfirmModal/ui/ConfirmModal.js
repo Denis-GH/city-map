@@ -1,9 +1,6 @@
 import { getGeneratedAttrs } from "#shared/lib/utils";
 import { Button, Icon } from "#shared/ui";
 
-/**
- *
- */
 export const ConfirmModal = ({ message = "", extraClasses = [], extraAttrs = [] }) => {
   return `<div class="confirmModal" ${getGeneratedAttrs(extraAttrs)} ${extraClasses.join(" ")}>
             <p class="confirmModal__title">${message}</p>

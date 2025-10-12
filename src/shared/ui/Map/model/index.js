@@ -10,9 +10,6 @@ import { DeleteMarkBtn, UpdateMarkBtn } from "#features/Marks/index.js";
 import { getExternalScript } from "#shared/lib/utils/getExternalScript";
 import { Spinner } from "#shared/ui/Spinner/index.js";
 
-/**
- *
- */
 export class YandexMap {
   constructor({
     containerSelector,

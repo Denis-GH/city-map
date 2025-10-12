@@ -1,8 +1,8 @@
 import Choices from "choices.js";
 import { getCfg } from "#shared/lib/utils";
-/**
- * Модель для создания кастомного селекта на основе choices.js
- */
+
+// Модель для создания кастомного селекта на основе choices.js
+
 class SelectTemplate {
   static presets = {
     default: {
@@ -169,9 +169,6 @@ class ChoicesInstance {
   }
 }
 
-/**
- *
- */
 export class SelectModel {
   selectors = {
     instance: "[data-js-select]",

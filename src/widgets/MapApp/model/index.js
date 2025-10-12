@@ -4,9 +4,6 @@ import { ApiClient } from "#shared/lib/services/ApiClient";
 import { yandexMapCustomEventNames } from "#shared/ui/Map/config/constans";
 import { YandexMap } from "#shared/ui/Map/model";
 
-/**
- *
- */
 export class MapApp {
   constructor(storeService, apiClient = new ApiClient()) {
     this.storeService = storeService;

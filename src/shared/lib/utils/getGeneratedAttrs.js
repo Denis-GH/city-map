@@ -1,6 +1,3 @@
-/**
- *
- */
 export const getGeneratedAttrs = (attributes = []) => {
   return attributes
     .map((attr) => {

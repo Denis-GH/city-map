@@ -1,8 +1,7 @@
 import { ModalManager } from "./modalManager.js";
 
-/**
- * Класс для отправки данных с формы
- */
+// Класс для отправки данных с формы
+
 export class FormHandler {
   static instance;
 

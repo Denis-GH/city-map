@@ -1,9 +1,7 @@
 import { Button, Icon } from "#shared/ui";
 
-/**
- * Кнопка для открытия модалки для обновления метки
- * @return {String}
- */
+// Кнопка для открытия модалки для обновления метки
+
 export const UpdateMarkBtn = ({
   markInfo,
   text = "Редактировать",

@@ -2,14 +2,8 @@
 import { http, HttpResponse, HttpMethods } from "msw";
 import { API_URL } from "../../config/constants.js";
 
-/**
- * Получает результат ответа MSW
- * @param type{String=} - тип запроса
- * @param resp{Object=} - собственный ответ
- * @param data{Object=} - данные ответа
- * @param endpoint{String} - точка запроса
- * @return {HttpHandler}
- */
+// Получает результат ответа MSW
+
 function getResponseMock({ type, resp, data, endpoint }) {
   if (!endpoint) {
     throw new Error("Missing endpoint for getResponseMock");

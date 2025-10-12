@@ -1,6 +1,3 @@
-/**
- *
- */
 export function checkMapInstance(method) {
   return function (...args) {
     if (!this.instance) {

@@ -1,9 +1,6 @@
 import { PlaceSwitchGroup } from "#features/PlaceSwitchGroup";
 import { Button, Icon } from "#shared/ui/index";
 
-/**
- *
- */
 const indexPage = () => `
 <!DOCTYPE html>
 <html lang="en">

@@ -1,9 +1,7 @@
 import { Button, Icon, Select } from "#shared/ui";
 
-/**
- * Контент модалки обновления метки
- * @return {string}
- */
+//  Контент модалки обновления метки
+
 export const UpdateMarkModalContent = ({ markInfo, url, method = "post" }) => {
   return `<div class="updateModalContent">
   <form data-js-form=${JSON.stringify({ url, method, showModalAfterSuccess: "#modalSuccess", delayBeforeRedirect: 3000 })}>

@@ -1,8 +1,5 @@
 import { getGeneratedAttrs } from "#shared/lib/utils";
 
-/**
- *
- */
 export const Switch = ({
   label = "",
   extraClasses = [],
