@@ -6,7 +6,7 @@ import { Button, Icon, Select } from "#shared/ui";
  */
 export const UpdateMarkModalContent = ({ markInfo, url, method = "post" }) => {
   return `<div class="updateModalContent">
-  <form data-js-form=${JSON.stringify({ url, method, showModalAfterSuccess: "#modalSuccess", redirectUrlAfterSuccess: "/test.html", delayBeforeRedirect: 3000 })}>
+  <form data-js-form=${JSON.stringify({ url, method, showModalAfterSuccess: "#modalSuccess", delayBeforeRedirect: 3000 })}>
     <h3 class="updateModalContent__title">Редактировать метку</h3>
     <p class="updateModalContent__markTitle">${markInfo.title}</p>
     <div class="updateModalContent__info infoUpdateModalContent">
