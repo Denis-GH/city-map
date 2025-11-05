@@ -40,6 +40,7 @@ export class MapApp {
 
     this.#bindYandexMapEvents();
     this.subscribeToStoreServiceChanges();
+    this.fetchMarkers();
   }
 
   handleFilterChanged(changeData) {
